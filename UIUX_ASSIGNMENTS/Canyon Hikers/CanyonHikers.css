@@ -1,0 +1,24 @@
+body {
+    font-family: fantasy;
+}
+
+.jumbotron {
+    background-image: url("outside-guide-grand-canyon_h.jpg");
+    background-size: cover;
+    text-align: right;
+    color: #ab8e0e;
+    font-family: fantasy;
+    padding: 100px;
+}
+
+.jumbotron p {
+    color: #7a6c2d;
+    text-align: right;
+}
+
+footer {
+    background-color: #ab8e0e;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

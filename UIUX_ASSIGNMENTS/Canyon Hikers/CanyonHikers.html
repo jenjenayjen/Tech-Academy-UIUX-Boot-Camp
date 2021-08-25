@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Canyon Hikers</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="CanyonHikers.css">
+    <link rel="stylesheet" type="text/css" href="vivify.min.css">
+
+</head>
+
+<body>
+    <!--nav bar-->
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand" href="#">
+            <img src="./CanyonHikersLogo.png" width="50" Heights ht="50" alt="logo.png">
+        </a>
+        <a class="navbar-text vivify popIn" href="">
+            Book Now!
+        </a>
+    </nav>
+    <!--end of nav-->
+
+    <!--jumbotron-->
+
+    <div class="jumbotron jumbotron-fluid ">
+        <div class="container ">
+            <h1 class="display-4 ">Canyon Hikers</h1>
+            <p class="lead ">Come join the fun!</p>
+        </div>
+    </div>
+
+    <!--end of jumbotron-->
+
+    <!--Card-->
+    <div class="card-group my-5">
+
+        <div class="card text-center vivify rollInLeft" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Morning Walk</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2-Hour Trail</h6>
+                <p class="card-text">Come and enjoy a beautiful morning with us in the canyons!</p>
+                <a href="#" class="card-link" onclick="play()">Book Now!</a>
+            </div>
+        </div>
+
+
+        <div class="card text-center vivify rollInTop" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Afternoon Walk</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2-Hour Trail</h6>
+                <p class="card-text">Come and get the most of your afternoon with us in the canyons!</p>
+                <a href="#" class="card-link" onclick="play()">Book Now!</a>
+            </div>
+        </div>
+
+
+        <div class="card text-center vivify rollInRight" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Evening Walk</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2-Hour Trail</h6>
+                <p class="card-text">Come and enjoy a beautiful sunset with us in the canyons!</p>
+                <a href="#" class="card-link" onclick="play()">Book Now!</a>
+            </div>
+
+        </div>
+    </div>
+    <!--end of card-->
+
+    <!--footer-->
+
+    <!-- Copyright -->
+    <footer>
+        <div class="text-center text-dark p-3">
+            © 2020 Copyright: Canyon Hikers
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!--end of footer-->
+
+    <!--audio-->
+    <audio id="audio" src="./347402__fotis-p__birds-chirping.wav"></audio>
+
+    <!--bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+    <script>
+        function play() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    </script>
+</body>
+
+</html>

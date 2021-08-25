@@ -1,0 +1,41 @@
+body {
+    margin: 20px auto;
+    font-family: "Lato";
+    font-weight: 300;
+    width: 600px;
+    font-size: 1.3em;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.a {
+    background: red;
+}
+
+.b {
+    background: blue;
+}
+
+.c {
+    background: green;
+}
+
+.container {
+    perspective: 100px;
+}
+
+.play {
+    background: orange;
+    border: none;
+    color: white;
+    font-family: 'Lato';
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+    margin: 10px;
+    font-weight: 300;
+}
