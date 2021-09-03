@@ -16,6 +16,10 @@ Prototype has three files.
 
 Case Study consists of two versions. One with just Home Page and one with all pages.
 
+![Gif of Theatre Vertigo Prototype](https://github.com/jenjenayjen/Tech-Academy-UIUX-Boot-Camp/blob/main/Live%20Project/Theatre%20Vertigo%20Adobe/TheatreVertigoPrototype.gif)
+
+![PNG of case study](https://github.com/jenjenayjen/Tech-Academy-UIUX-Boot-Camp/blob/main/Live%20Project/Theatre%20Vertigo%20Adobe/Case%20Study/Theatre%20Vertigo%20Case%20Study%20All%20Pages.png)
+
 Description of Case study below:
 
     Theatre Vertigo Case Study
