@@ -5,3 +5,4 @@
 
 Theatre Vertigo Adobe
     This folder consists of wireframes, mockups, prototype and case study I have done for Tech Academy Live Project. 
+    To learn more, please read the readme in Theatre Vertigo. 
